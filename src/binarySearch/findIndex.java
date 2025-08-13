@@ -17,6 +17,6 @@ public class findIndex {
             if(arr[mid]<x)si = mid+1;
             else ei = mid-1;
         }
-        System.out.print(-1);
+        System.out.print(-1); // if index not found!
     }
 }
