@@ -7,21 +7,21 @@ public class leetcode2264 {
         System.out.println(largestGoodInteger(str));
     }
     public static String largestGoodInteger(String num){
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(); // created string builder for less time & space complexity
 
-        for(int i = 0 ; i < num.length() ; i++){
-            if( i!=num.length()-1 && (num.charAt(i)==num.charAt(i+1))){
+        for(int i = 0 ; i < num.length() ; i++){  // iterate on every char
+            if( i!=num.length()-1 && (num.charAt(i)==num.charAt(i+1))){ // if two same char found check char till length-1
                 int count = 0;
                 char c = num.charAt(i);
-                while(i < num.length() && num.charAt(i)==c){
+                while(i < num.length() && num.charAt(i)==c){ // check and increase count
                     count++;
                     i++;
                 }
-                i-=1;
+                i-=1; // set i at its correct position
 
-                if(count>=3){
-                    if(sb.isEmpty() || ((!sb.isEmpty()) && c > sb.charAt(0))){
-                        sb.setLength(0);
+                if(count>=3){ // if count is at least 3
+                    if(sb.isEmpty() || ((!sb.isEmpty()) && c > sb.charAt(0))){ // check the condition and if found num grater then prev replace it
+                        sb.setLength(0); // if there is any string empty it first
                         for(int j = 1 ; j <= 3 ; j++ ){
                             sb.append(c);
                         }
