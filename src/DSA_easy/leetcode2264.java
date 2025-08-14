@@ -1,5 +1,5 @@
-package genDSA;
-import java.util.*;
+package DSA_easy;
+
 //Q:- largest 3-same digit number in string 2264 leetcode
 public class leetcode2264 {
     public static void main(String[] args){

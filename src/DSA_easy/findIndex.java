@@ -1,5 +1,4 @@
-package binarySearch;
-import java.util.*;
+package DSA_easy;
 
 public class findIndex {
 
@@ -20,3 +19,6 @@ public class findIndex {
         System.out.print(-1); // if index not found!
     }
 }
+
+// => find index using binary search
+
