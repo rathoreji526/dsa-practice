@@ -29,7 +29,7 @@ public class leetcode2264 {
                 }
             }
         }
-        return sb.toString();
+        return sb.toString(); // returned the final string
     }
 
 }
