@@ -1,6 +1,6 @@
 package genDSA;
 import java.util.*;
-// largest 3-same digit number in string 2264 leetcode
+//Q:- largest 3-same digit number in string 2264 leetcode
 public class leetcode2264 {
     public static void main(String[] args){
         String str = "4818042931906802860005960222213336669500011846936171709111";
