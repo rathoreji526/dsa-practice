@@ -1,4 +1,4 @@
-package DSA_easy;
+package binarySearch.Easy;
 
 //Q:- largest 3-same digit number in string 2264 leetcode
 public class leetcode2264 {

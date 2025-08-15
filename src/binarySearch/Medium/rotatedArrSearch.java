@@ -1,4 +1,4 @@
-package DSA_medium;
+package binarySearch.Medium;
 
 public class rotatedArrSearch {
 

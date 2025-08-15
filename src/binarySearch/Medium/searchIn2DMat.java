@@ -1,4 +1,4 @@
-package DSA_medium;
+package binarySearch.Medium;
 
 public class searchIn2DMat {
     public static boolean searchMatrix(int[][] matrix, int target) {

@@ -1,4 +1,4 @@
-package DSA_hard;
+package binarySearch.Hard;
 
 //Q:- Allocate Minimum Number Of Pages "Accio Jobs"
 
