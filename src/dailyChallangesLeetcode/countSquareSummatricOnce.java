@@ -32,7 +32,6 @@ public class countSquareSummatricOnce {
             prev = curr;
             curr = temp; // Reuse arrays
         }
-
         return totalSquares;
     }
     public static void main(String[] args){
