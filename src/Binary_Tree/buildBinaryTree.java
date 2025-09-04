@@ -43,4 +43,5 @@ public class buildBinaryTree {
     => traverse the whole given array of preorder
     => create node of current data
     => left and right node will be created recursively and after that return current node/root.
+    => time complexity is O(n);
  */
