@@ -3,7 +3,7 @@ package leetcodeTop75;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+ class Solution {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> res = new ArrayList<>(candies.length);
         int max = 0;
