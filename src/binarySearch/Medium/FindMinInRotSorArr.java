@@ -1,6 +1,6 @@
 package binarySearch.Medium;
 
-public class findMinInRotSorArr {
+public class FindMinInRotSorArr {
     static int searchMin(int[] arr){
         int si = 0 , ei = arr.length-1;
         while(si < ei){

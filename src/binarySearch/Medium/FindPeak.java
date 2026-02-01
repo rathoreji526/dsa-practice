@@ -2,7 +2,7 @@
 
 package binarySearch.Medium;
 
-public class findPeak {
+public class FindPeak {
     public static int findPeakEl(int[] arr){
         int start = 0 , end = arr.length-1;
         while(start<end){

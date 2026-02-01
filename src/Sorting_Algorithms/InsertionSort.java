@@ -1,5 +1,4 @@
 package Sorting_Algorithms;
 
-public class quickSort{
-
+public class InsertionSort {
 }

@@ -1,6 +1,6 @@
 package binarySearch.Medium;
 
-public class rotatedArrSearch {
+public class RotatedArrSearch {
 
         public static boolean search(int[] nums, int target) {
             int si = 0 , ei = nums.length-1;

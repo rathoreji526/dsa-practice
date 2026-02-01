@@ -31,7 +31,7 @@ Explanation: There is no subarray filled with 0. Therefore, we return 0.
 
 package dailyChallangesLeetcode;
 
-public class numberOfZero {
+public class NumberOfZero {
     static long countSubStrings(int n){
         return (long)n*(n+1)/2;
     }

@@ -85,10 +85,10 @@ public class SelectionSort {
     public static void main(String[] args) {
         SelectionSort obj = new SelectionSort();
         int[] arr = {8 , 5 , 3 , 9 , 3 , 2 , 4};
-        sort(arr);
+        obj.sort(arr);
         for(int n : arr) System.out.print(n+" ");
     }
-    public static void sort(int[] arr){
+    public  void sort(int[] arr){
         for(int i = 0 ; i < arr.length-1 ; i++){
             int minIdx = i;
             for(int j = i+1 ; j < arr.length ; j++){

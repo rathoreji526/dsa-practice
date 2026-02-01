@@ -1,6 +1,6 @@
 package dailyChallangesLeetcode;
 
-public class powerOfFour {
+public class PowerOfFour {
     static boolean powOfFour(int num){
         if(num==1)return true;
         if(num<1 || num % 4 != 0)return false;

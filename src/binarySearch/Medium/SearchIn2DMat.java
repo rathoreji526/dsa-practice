@@ -1,6 +1,6 @@
 package binarySearch.Medium;
 
-public class searchIn2DMat {
+public class SearchIn2DMat {
     public static boolean searchMatrix(int[][] matrix, int target) {
         for(int i = 0 ; i < matrix.length ; i++){
             int si = 0 , ei =matrix[0].length-1;

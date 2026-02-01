@@ -1,6 +1,6 @@
 package dailyChallangesLeetcode;
 
-public class max69Num {
+public class Max69Num {
     static int maximum69Num(int n){
         StringBuilder sb = new StringBuilder();
         sb.append(n);

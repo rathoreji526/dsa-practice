@@ -2,7 +2,7 @@ package binarySearch.Hard;
 
 //Q:- Allocate Minimum Number Of Pages "Accio Jobs"
 
-public class allocateMinNumOfPages {
+public class AllocateMinNumOfPages {
     //function to check at specific load is it possible to distribute load to all students!
     public static boolean isPossible(int[] arr ,int students ,  long maxLoad){
         int currStudents = 1;

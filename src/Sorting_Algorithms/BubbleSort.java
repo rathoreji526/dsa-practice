@@ -75,7 +75,7 @@ Space Complexity: O(1), because it’s an in-place sorting algorithm (no extra s
 
 package Sorting_Algorithms;
 
-public class bubbleSort {
+public class BubbleSort {
     static void sortUsingBubbleSort(int[] arr){
         int n = arr.length;
 

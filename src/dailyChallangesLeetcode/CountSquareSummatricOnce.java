@@ -1,7 +1,7 @@
 //=> it's the problem of DP i've not studied yet so i pasted it from  to maintain streak;
 package dailyChallangesLeetcode;
 
-public class countSquareSummatricOnce {
+public class CountSquareSummatricOnce {
     public static int countSqrareSummWithOnce(int[][] matrix){
         int rows = matrix.length;
         int cols = matrix[0].length;
