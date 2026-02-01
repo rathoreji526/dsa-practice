@@ -8,14 +8,12 @@ package leetcodeTop75;
 
 public class ProductOfArrayExceptSelf {
     public static void main(String[] args) {
-        Solution_ProductOfArrayExceptSelf productOfArrayExceptSelf = new Solution_ProductOfArrayExceptSelf();
+        ProductOfArrayExceptSelf productOfArrayExceptSelf = new ProductOfArrayExceptSelf();
         int[] input = {1,2,3,4};
         int[] arr;
         arr = productOfArrayExceptSelf.productExceptSelf(input);
         for(int a : arr) System.out.print(a+" ");
     }
-}
-class Solution_ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] res = new int[n];

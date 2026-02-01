@@ -10,12 +10,11 @@ package leetcodeTop75;
 
 public class ReverseWordsInString {
     public static void main(String[] args) {
-        Solution_ReverseWordsInString s1 = new Solution_ReverseWordsInString();
+        ReverseWordsInString s1 = new ReverseWordsInString();
         String res =  s1.reverseWords("the sky is blue");
         System.out.println(res);
     }
-}
-class Solution_ReverseWordsInString {
+
     void reverse(String[] list){
         int left = 0 , right = list.length-1;
         while(left < right){
